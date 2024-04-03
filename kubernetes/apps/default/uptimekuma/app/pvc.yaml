@@ -3,7 +3,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: uptimekuma-config
+  name: pvc-uptime-kuma
   labels:
     app.kubernetes.io/name: homeassistant
 spec:

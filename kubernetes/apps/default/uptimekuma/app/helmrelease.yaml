@@ -78,3 +78,8 @@ spec:
                   port: http
         tls:
           - hosts: [*host]
+    persistence:
+      data:
+        existingClaim: pvc-uptime-kuma
+        globalMounts:
+          - path: /app/data
