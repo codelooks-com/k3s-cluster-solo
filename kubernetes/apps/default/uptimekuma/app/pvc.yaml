@@ -5,7 +5,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: pvc-uptime-kuma
   labels:
-    app.kubernetes.io/name: homeassistant
+    app.kubernetes.io/name: uptime-kuma
 spec:
   accessModes:
     - ReadWriteOnce
